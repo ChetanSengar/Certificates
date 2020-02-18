@@ -1,0 +1,16 @@
+File Shared on : https://drive.google.com/file/d/1Qwgt8H54m_e--VsFqE941JfuZTch8SGP/view?usp=sharing
+
+Angular: 
+
+1) JSON File: This file is created with the Backend(Python) which is generating the 3 different types of array. 
+	-gird_with_answers
+	-hidden_words_in_gird
+	-words_with_clue
+2) Getting this array from JSON file and accessing data with the *ngFor.
+
+3) Presenting the Dynamic data into Angular(app.component.html >>in table form) which is having some different conditions.
+	-gird_with_asnwers : For to compare the answers.
+	-hidden_words_in_grid: For to show it to the GUI.
+
+4) words_with_clue : On the right side, clue has been mentioned which has been derived from database/JSON file.
+	-Extra property: Once clicking over the Clue, you'll have the answer in POP_UP for a second that you need to put inside the left_Side(in CrossWord Table) one letter each in box.
